@@ -1,19 +1,11 @@
 package com.actividad.trabajopoo;
 
-public class Fruta {
-    private String nombre;
-    private String color;
+public class TrabajoPOO {
+    public static void main(String[] args) {
+        Fruta miFruta = new Fruta("Manzana", "Roja");
 
-    public Fruta(String nombre, String color) {
-        this.nombre = nombre;
-        this.color = color;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getColor() {
-        return color;
+        System.out.println("--- DATOS DE LA FRUTA ---");
+        System.out.println("Nombre: " + miFruta.getNombre());
+        System.out.println("Color: " + miFruta.getColor());
     }
 }
